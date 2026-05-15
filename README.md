@@ -1,4 +1,4 @@
-# Nino "Niraven" Conag
+# Nino "Niraven" Amor
 
 I build practical AI-agent infrastructure, automation systems, and security-focused developer tools.
 

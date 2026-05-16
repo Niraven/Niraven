@@ -1,32 +1,93 @@
 # Nino "Niraven" Amor
 
-I build practical AI-agent infrastructure, automation systems, and security-focused developer tools.
+I build practical AI systems that can be explained to operators, shipped by teams, and trusted with real tools.
 
-Current focus: **MCP security, local-first agent workflows, and tools that make autonomous software agents safer to use with real systems.**
+I bridge the technical and non-technical sides of AI work: product strategy, operations, automation, community, and hands-on engineering. My current lane is agent tooling, MCP security, OpenClaw/Pokee skills, procedural memory, and SEA-focused automation products.
+
+## Current Direction
+
+- **Pokee/OpenClaw skills:** building practical agent skills that connect deep research and workflow automation to real users.
+- **MCP security and reliability:** making agent tool calls observable, rate-limited, auditable, and safer by default.
+- **Agent memory:** exploring Hermes-style procedural memory so agents can reuse workflows instead of relearning them every session.
+- **SEA automation products:** turning local operational pain into small, shippable software and service offers.
 
 ## Featured Work
 
+### [pokee-deep-research-skill](https://github.com/Niraven/pokee-deep-research-skill)
+
+OpenClaw skill for Pokee AI's Deep Research API.
+
+I built this to make Pokee's research agent usable inside an OpenClaw workflow: run a research query, save structured outputs, and produce citation-rich reports for strategy, market research, and due diligence.
+
+Links:
+
+- [Pokee AI](https://pokee.ai)
+- [PokeeResearchOSS](https://github.com/Pokee-AI/PokeeResearchOSS)
+- [OpenClaw](https://github.com/openclaw/openclaw)
+
 ### [mcp-gateway](https://github.com/Niraven/mcp-gateway)
-Local-first firewall for MCP tool calls.
+
+Local-first firewall and black-box recorder for MCP-connected agents.
 
 - Blocks poisoned MCP tool descriptions before agents can see them
-- Detects descriptor drift after the first trusted baseline
+- Detects descriptor drift after a trusted baseline
 - Rate-limits runaway tool calls
-- Scans tool inputs for shell injection, path traversal, and XSS-like payloads
-- Writes redacted audit logs for tool-call visibility
+- Holds risky actions for approval
+- Produces redacted audit logs and share-safe run reports
+
+This is the core thesis I am building around: production agents need infrastructure around tool access, not only better prompts.
+
+### [myelin](https://github.com/Niraven/myelin)
+
+Procedural memory for AI agents.
+
+Myelin observes repeated agent workflows, clusters action sequences, promotes reusable procedures, and exposes learned behavior through MCP. It is built for agents that should get better at the work they actually do.
+
+### [philgeps-scraper](https://github.com/Niraven/philgeps-scraper)
+
+Philippines-focused BidOps monitor for public procurement opportunities.
+
+It started as a scraper and evolved into a commercial product angle: help suppliers decide which government bids are worth pursuing, reviewing, or skipping before wasting time on weak-fit opportunities.
+
+### [adpulse-ph](https://github.com/Niraven/adpulse-ph)
+
+Philippines-focused Meta ads manager prototype.
+
+AdPulse PH explores a local-market SaaS angle for advertisers, media buyers, and agencies managing Facebook ad accounts, pages, exports, and dashboard workflows.
 
 ### [sigil-memory](https://github.com/Niraven/sigil-memory)
-Local memory backbone for multi-agent systems using SQLite, knowledge graphs, and fast retrieval.
 
-### [sam](https://github.com/Niraven/sam)
-Screen-aware MCP experiment for giving agents local desktop context and capture-based memory.
+Predecessor to Myelin.
 
-## What I’m Building Toward
+Sigil explored local-first agent memory, SQLite-backed knowledge graphs, personas, orchestration, and multi-agent coordination. Myelin is the sharper successor focused on procedural memory.
 
-- Security and observability for AI-agent tool use
-- Local-first agent infrastructure that does not depend on broad cloud access
-- Developer tools that turn messy automation workflows into reliable systems
+## Product And Operator Work
 
-## Proof Over Hype
+I am not only interested in technical demos. I care about adoption, positioning, and the path from prototype to operational value.
 
-Most of my work is built in public through small, shippable projects: CLIs, MCP servers, workflow engines, dashboards, and automation systems. I care about demos that run, tests that prove behavior, and tools that solve operational problems.
+- Product/GTM and AI workflow work with Pokee AI.
+- AI strategy and operations work across portfolio workflows, automation standards, and internal AI rollout.
+- Salesforce AgentForce and workflow automation experience across CRM, support, SOPs, dashboards, and low-code systems.
+- Community, onboarding, and launch work that turns AI capabilities into something users can understand and adopt.
+
+## What I Am Good At
+
+**Technical:** Python, TypeScript, MCP, local-first tooling, SQLite, RAG, LLM workflows, agent orchestration, automation pipelines, security-minded tool design.
+
+**Product:** AI product strategy, roadmapping, user onboarding, workflow mapping, GTM experiments, community feedback loops, founder/SMB automation offers.
+
+**Operations:** turning ambiguous processes into tools, dashboards, SOPs, training materials, and repeatable execution systems.
+
+## How To Read This GitHub
+
+This account is a build trail. Some repos are polished products, some are research prototypes, and some are product experiments. The connective tissue is practical AI:
+
+- Can an agent use this safely?
+- Can a human operator understand it?
+- Can a team adopt it without magic?
+- Can it become public proof, a product, or a client offer?
+
+## Links
+
+- Portfolio: [niamportfolio.netlify.app](https://niamportfolio.netlify.app/)
+- LinkedIn: [linkedin.com/in/niam-amor](https://www.linkedin.com/in/niam-amor/)

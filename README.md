@@ -2,11 +2,12 @@
 
 I build practical AI systems that can be explained to operators, shipped by teams, and trusted with real tools.
 
-I bridge the technical and non-technical sides of AI work: product strategy, operations, automation, community, and hands-on engineering. My current lane is agent tooling, MCP security, OpenClaw/Pokee skills, procedural memory, and SEA-focused automation products.
+I bridge the technical and non-technical sides of AI work: product strategy, model testing, research workflows, internal automation, community, and hands-on engineering. My current lane is agent tooling, MCP security, OpenClaw/Pokee skills, procedural memory, and SEA-focused automation products.
 
 ## Current Direction
 
-- **Pokee/OpenClaw skills:** building practical agent skills that connect deep research and workflow automation to real users.
+- **Pokee/OpenClaw skills:** building practical agent skills and integrations that connect deep research, product workflows, and real users.
+- **Model testing and research ops:** working across model behavior, researcher workflows, internal processes, and usable agent experiences.
 - **MCP security and reliability:** making agent tool calls observable, rate-limited, auditable, and safer by default.
 - **Agent memory:** exploring Hermes-style procedural memory so agents can reuse workflows instead of relearning them every session.
 - **SEA automation products:** turning local operational pain into small, shippable software and service offers.
@@ -17,7 +18,9 @@ I bridge the technical and non-technical sides of AI work: product strategy, ope
 
 OpenClaw skill for Pokee AI's Deep Research API.
 
-I built this to make Pokee's research agent usable inside an OpenClaw workflow: run a research query, save structured outputs, and produce citation-rich reports for strategy, market research, and due diligence.
+At Pokee AI, I work across product, model testing, research workflows, internal workflows, and agent integrations. This skill is one public artifact from that lane: making Pokee's deep research agent usable inside OpenClaw workflows for strategy, market research, and due diligence.
+
+The broader work is about bridging researchers, technical builders, and non-technical users: testing model behavior, improving internal processes, translating research capabilities into usable agent experiences, and building tools that help people actually use advanced agents.
 
 Links:
 
